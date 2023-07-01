@@ -1,10 +1,5 @@
 /*
 Mustafa Yetişir
-150170032
-
-ASSIGNMENT2
-
-02.12.2022
 
 Linked List File: Contains Linked List and Linked List Node classes and their functions to use them when calculating estimators and so on.
 */

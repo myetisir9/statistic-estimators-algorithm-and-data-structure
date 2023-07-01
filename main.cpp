@@ -1,8 +1,5 @@
 /*
 Mustafa Yetişir
-150170032
-
-ASSIGNMENT2
 
 02.12.2022
 

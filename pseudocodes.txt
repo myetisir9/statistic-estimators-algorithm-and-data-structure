@@ -1,0 +1,77 @@
+Function STD()
+{
+	Total = 0
+	N = Linked List -> Head
+	Mean = Linked List -> Mean()
+	while (N!= nullptr)
+	{
+		Mean_dist = Mean - N->Value()  
+		Total = Total + (Mean_dist * Mean_dist)
+		N = N->Next
+	}
+
+	Variance = Total / (Linked List -> Size - 1)
+	return Sqrt(Variance)
+}
+
+Q1 ()
+{
+	if (Linked List -> Size < 4)
+	{
+		Median = Linked List -> Median 
+		Min = Linked List -> Min 
+
+		return (Median + Min) / 2.0
+	}
+
+	Q1 index = (Linked List -> Size +1) / 4.0
+	if (Q1 index == floor(Q1 index))
+		return Linked List -> Get_kth(Q1 index)
+	else
+		return Linked List -> Get average(Q1 index)	
+}
+
+Median()
+{
+	Size = Linked List -> Size  
+	if (Size % 2 == 0)
+		return Linked List -> Get average(Size /2 - 1);
+	else
+		return Linked List-> Get_kth(Size - 1);
+}
+
+Q3()
+{
+	Size = Linked List->Size
+	Q3 index = (Size+1) / 4.0;
+
+	if (Q3 index == floor(Q3 index))
+		return Linked List->Get_kth(Q3 index)
+	else
+		return Linked List -> Get average(Q3 index)
+}
+
+Max()
+{
+	Return Linked List -> Head
+}
+
+Min()
+{
+	N = Linked List -> Head
+	while (N -> Next != Null)
+		N = N->Next
+	return N
+}
+
+Mean()
+{
+	Total = 0
+	N = Linked List -> Head
+	while (N != NULL)
+	{
+		Total = Total + N -> Value
+		N = N -> Next
+	}
+	return Total / Linked List -> Size
+}

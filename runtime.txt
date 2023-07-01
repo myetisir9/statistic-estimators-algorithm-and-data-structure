@@ -1,0 +1,32 @@
+input_1	    	=	268 mics
+
+firstq10 		=	 188 mics
+firstq100		=	627 mics
+firstq1000      =	8527 mics
+firstq10000     =	355508 mics
+firstq100000	=	46840828mics 
+
+max10		    =	164 mics
+max100		    =	1140 mics
+max1000		    =	14900 mics
+max10000	    =	237206 mics
+max100000	    =	57877589 mics
+
+mean10		    =	110 mics
+mean100		    =	842 mics
+mean1000	    =	8781 mics
+mean10000	    =	599602 mics
+mean100000	    =	188515560 mics
+
+median 10	    =	101 mics
+median 100	    =	798 mics
+median 1000	    =	7029 mics
+median 10000	=	419346 mics
+median 100000	=	105004445 mics 
+
+min 10		    =	270 mics
+min 100		    =	1770 mics
+min 1000		=	10901 mics
+min 10000	    =	476557 mics
+min 100000	    =	143807570 mics
+
